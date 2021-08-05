@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "module_name": "^1.0.0",
+    "mongoose": "^5.13.5",
+    "multer": "^1.4.2",
+    "node": "^16.4.1",
+    "request": "^2.88.2",
+    "start": "^5.1.0",
+    "yarn": "^1.22.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12",
+    "sucrase": "^3.20.0"
+  }
+}
